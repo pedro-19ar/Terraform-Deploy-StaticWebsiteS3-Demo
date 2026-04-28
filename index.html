@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terraform Pro</title>
+
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #f1f5f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(30, 41, 59, 0.8);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+            backdrop-filter: blur(10px);
+            max-width: 500px;
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #38bdf8;
+        }
+
+        .info {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        .badge {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 8px 16px;
+            border-radius: 999px;
+            background: #22c55e;
+            color: #022c22;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 0.8rem;
+            color: #94a3b8;
+        }
+
+        /* Animación suave */
+        .container {
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .container {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🚀 Bienvenido al examen Terraform</h1>
+
+        <p class="info"><strong>Nombre:</strong> Pedro Aristizabal (pedro-19ar en Github)</p>
+        <p class="info"><strong>Fecha:</strong> 2026-04-27</p>
+
+        <div class="badge">AWS S3 Static Website</div>
+
+        <div class="footer">
+            Desplegado con Terraform ☁️
+        </div>
+    </div>
+
+</body>
+</html>
